@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, FlatList, Image } from "react-native";
+import { View, Text, FlatList, Image, TextInput } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import Icon2 from "react-native-vector-icons/FontAwesome5";
@@ -26,7 +26,7 @@ export const Playlist = () => {
     {
       id: "1",
       title: "Stay With Me - Acoustic Version",
-      artist: "You me At Six",
+      artist: "You Me At Six",
       albumCover: you6,
     },
     {
@@ -104,6 +104,10 @@ export const Playlist = () => {
       </View>
       <View style={styles.containerTitle}>
         <Text style={styles.songsQty}>235 músicas</Text>
+      </View>
+      <View style={styles.inputContainer}>
+        <Icon3 name="search" style={styles.searchIcon} />
+        <TextInput style={styles.input} placeholder="O que você quer ouvir?" />
       </View>
       <View style={styles.containerHeaderMenu}>
         <View>

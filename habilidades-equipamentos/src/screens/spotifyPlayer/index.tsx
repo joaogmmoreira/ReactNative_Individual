@@ -2,7 +2,6 @@ import {
   View,
   Text,
   Image,
-  Button,
   TouchableOpacity,
   ImageBackground,
 } from "react-native";
