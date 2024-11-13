@@ -1,6 +1,6 @@
 # ReactNative_Individual
 
-<div style="display: flex; flex-direction: row; align-items: center; width: 100%; float: left; margin-right: 5%;"> 
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; float: left; margin-right: 5%;"> 
     <div style="display: flex; flex-direction: column; align-items: center; width: 45%; float: left; margin-right: 5%;">
         <span style="font-size: 20px; font-weight: bold;">Tela do player original do Spotify</span>
         <img src="./habilidades-equipamentos/assets/PlayerOriginal.jpg" alt="Player Original" width="40%" />
@@ -13,7 +13,7 @@
 
 <div style="clear: both;"></div>
 
-<div style="display: flex; flex-direction: row; align-items: center; width: 100%; float: left; margin-right: 5%;"> 
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; float: left; margin-right: 5%;"> 
     <div style="display: flex; flex-direction: column; align-items: center; width: 45%; float: left; margin-right: 5%;">
         <span style="font-size: 20px; font-weight: bold;">Tela da Playlist Original do Spotify</span>
         <img src="./habilidades-equipamentos/assets/PlaylistOriginal.jpg" alt="Playlist Original" width="40%" />
