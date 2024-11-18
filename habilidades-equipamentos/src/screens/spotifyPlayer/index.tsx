@@ -10,15 +10,13 @@ import Icon2 from "react-native-vector-icons/FontAwesome";
 import Icon3 from "react-native-vector-icons/Entypo";
 import Icon4 from "react-native-vector-icons/AntDesign";
 import Icon5 from "react-native-vector-icons/Feather";
-import { LinearGradient } from "expo-linear-gradient";
+import { Gradient } from "../../components/Gradient/Gradient";
+// import { LinearGradient } from "expo-linear-gradient";
 import { styles } from "./styles";
 
 export const Player = () => {
   return (
-    <LinearGradient
-      colors={["#333", "#222", "#111", "#000"]}
-      style={styles.container}
-    >
+    <Gradient>
       <View style={styles.containerTitle}>
         <View style={styles.titleButtonDiv}>
           <TouchableOpacity>
@@ -108,6 +106,6 @@ export const Player = () => {
           <Text style={styles.about}>Sobre o artista</Text>
         </ImageBackground>
       </View>
-    </LinearGradient>
+    </Gradient>
   );
 };
